@@ -1,7 +1,7 @@
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: argocd-test
+  name: argocdtest
   namespace: guestbook
 spec:
   selector: all()
