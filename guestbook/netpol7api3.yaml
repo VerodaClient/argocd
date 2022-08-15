@@ -1,7 +1,7 @@
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: defaultguestbook-ingress
+  name: default.guestbook-ingress
   namespace: guestbook
 spec:
   order: 1002
