@@ -5,7 +5,6 @@ metadata:
   namespace: guestbook
 spec:
   selector: all()
-  serviceAccountSelector: ''
   ingress:
     - action: Allow
       source: {}
