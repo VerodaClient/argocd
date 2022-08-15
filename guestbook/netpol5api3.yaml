@@ -9,6 +9,3 @@ spec:
     - Ingress
   ingress:
     - action: Allow
-      destination:
-        ports: 
-        - 80
