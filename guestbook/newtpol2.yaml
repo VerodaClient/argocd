@@ -1,0 +1,11 @@
+apiVersion: projectcalico.org/v3
+kind: NetworkPolicy
+metadata:
+  name: guestbook-ingress2
+  namespace: guestbook
+spec:
+  order: 1002
+  types:
+    - Ingress
+  ingress:
+    - action: Allow
